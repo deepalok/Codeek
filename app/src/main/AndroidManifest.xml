@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bce.codeek">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@mipmap/codeek_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/codeek_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.all_courses.Hacking" />
+        <activity android:name=".activity.all_courses.DataScience" />
+        <activity android:name=".activity.all_courses.Kotlin" />
+        <activity android:name=".activity.all_courses.Csharp" />
+        <activity android:name=".activity.all_courses.Companies" />
+        <activity android:name=".activity.all_courses.PlacementSeries" />
+        <activity android:name=".activity.all_courses.Puzzles" />
+        <activity android:name=".activity.all_courses.MachineLearning" />
+        <activity android:name=".activity.all_courses.Javascript" />
+        <activity android:name=".activity.all_courses.CodingPlatforms" />
+        <activity android:name=".activity.all_courses.Github" />
+        <activity android:name=".activity.all_courses.Web" />
+        <activity android:name=".activity.all_courses.Android" />
+        <activity android:name=".activity.all_courses.DSA" />
+        <activity android:name=".activity.all_courses.Python" />
+        <activity android:name=".activity.all_courses.Java" />
+        <activity android:name=".activity.all_courses.C_Plus" />
+        <activity android:name=".activity.all_courses.C" />
+        <activity android:name=".activity.MainActivity2" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

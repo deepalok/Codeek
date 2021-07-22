@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Codeek</string>
+    <string name="road_map">Road map</string>
+    <string name="youtube_recommended_course_1">youtube recommended course 1</string>
+    <string name="youtube_recommended_course_2">youtube_recommended_course_2</string>
+    <string name="textView">TextView</string>
+    <string name="inteview_questions">Inteview Questions</string>
+    <string name="project_ideas">Project Ideas</string>
+    <string name="road_map_1">Road Map 1</string>
+    <string name="road_map_2">Road Map 2</string>
+    <string name="youtube_recommended_course">Youtube recommended course</string>
+    <string name="youtube_recommended_course_3">Youtube Recommended Course 3</string>
+    <string name="youtube_recommended_channel">Youtube Recommended Channel</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="c_o_d_e_e_k">C O D E E K</string>
+    <string name="codeek_icon">Codeek Icon</string>
+    <string name="course_image">Course Image</string>
+</resources>
