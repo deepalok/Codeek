@@ -6,12 +6,14 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bce.codeek.R
 import com.bce.codeek.adapter.DetailsRVAdapter
 import com.bce.codeek.adapter.DetailsRVItemClicked
 import com.bce.codeek.model.Details
+
 
 class MainActivity2 : AppCompatActivity(), DetailsRVItemClicked {
 
@@ -288,6 +290,13 @@ class MainActivity2 : AppCompatActivity(), DetailsRVItemClicked {
         val appPage = Uri.parse(string)
         val intent = Intent(Intent.ACTION_VIEW, appPage)
         startActivity(intent)
+    }
+
+    // Function to open the desired link through Custom Tabs ...
+    fun customTabs(link : String) {
+        val builder = CustomTabsIntent.Builder()
+        val customTabsIntent = builder.build()
+        customTabsIntent.launchUrl(this, Uri.parse(link))
     }
 
     // Instance of interface for RecyclerView item click listener
@@ -1008,6 +1017,7 @@ class MainActivity2 : AppCompatActivity(), DetailsRVItemClicked {
 
         }
 
-        openLink(link)
+        //openLink(link)
+        customTabs(link)
     }
 }
